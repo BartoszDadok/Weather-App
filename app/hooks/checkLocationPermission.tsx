@@ -20,7 +20,10 @@ const checkLocationPermission = () => {
       try {
         const { status } = await Location.requestForegroundPermissionsAsync();
         if (status === Location.PermissionStatus.GRANTED) {
-          const location = await Location.getCurrentPositionAsync({});
+          const location = await Location.getCurrentPositionAsync({
+            accuracy: Location.Accuracy.Lowest,
+          });
+          console.log("location 2", location);
           const {
             coords: { latitude, longitude },
           } = location;
