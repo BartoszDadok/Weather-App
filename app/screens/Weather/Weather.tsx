@@ -13,10 +13,7 @@ import { groupByWeekday } from "@/app/utils";
 import { DEFAULT_COORDINATES, LocationCoordinates } from "@/app/hooks";
 import { WeatherRetry } from "./WeatherRetry";
 import { NoWeatherData } from "./NoWeatherData";
-import {
-  useGetWeatherQuery,
-  useLazyGetLocationsQuery,
-} from "@/app/store/api/api";
+import { useGetWeatherQuery, useLazyGetLocationsQuery } from "@/app/store/api";
 import { useAppSelector } from "@/app/store";
 import { SearchLocationResponse } from "@/app/store/types";
 

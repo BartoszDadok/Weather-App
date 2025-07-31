@@ -23,7 +23,6 @@ const checkLocationPermission = () => {
           const location = await Location.getCurrentPositionAsync({
             accuracy: Location.Accuracy.Lowest,
           });
-          console.log("location 2", location);
           const {
             coords: { latitude, longitude },
           } = location;
