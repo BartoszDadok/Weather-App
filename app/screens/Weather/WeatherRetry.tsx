@@ -17,6 +17,7 @@ const WeatherRetry = ({ refetch }: { refetch: () => void }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    gap: 16,
     justifyContent: "center",
     alignItems: "center",
   },
