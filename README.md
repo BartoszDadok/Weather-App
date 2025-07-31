@@ -1,12 +1,3 @@
-# Demo
-## IOS:
-https://github.com/user-attachments/assets/b02be913-dda0-4d33-bc1c-4e538b0fa71d
-
-
-## Android:
-https://github.com/user-attachments/assets/27a40c2f-1c65-4298-8996-bb0ab64476d1
-
-
 # How to run the project
 
 ## 1. Create .env file
@@ -40,6 +31,16 @@ bun run android --device
 ```bash
 bun run test 
 ```
+
+# Demo
+## IOS:
+https://github.com/user-attachments/assets/b02be913-dda0-4d33-bc1c-4e538b0fa71d
+
+
+## Android:
+https://github.com/user-attachments/assets/27a40c2f-1c65-4298-8996-bb0ab64476d1
+
+
 
 # Architecture
 
