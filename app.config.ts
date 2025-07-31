@@ -1,6 +1,6 @@
 import type { ExpoConfig } from "@expo/config-types";
 
-export default ({ config }: { config: ExpoConfig }) => {
+export default ({ config }: { config: ExpoConfig }): ExpoConfig => {
   return {
     ...config,
     name: "Weather",
@@ -23,12 +23,6 @@ export default ({ config }: { config: ExpoConfig }) => {
     },
 
     plugins: [
-      [
-        "expo-dev-launcher",
-        {
-          launchMode: "most-recent",
-        },
-      ],
       [
         "expo-splash-screen",
         {
